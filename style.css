@@ -1,0 +1,181 @@
+body{
+
+   
+    background-color: #84E1AD;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+ul{
+    list-style: none;
+    padding: 0%;
+}
+.inicio{
+    text-align: center;
+   
+    background-image: linear-gradient(to bottom,#3DDA84,#185233);
+    color: white;
+    
+}
+.titulo{
+    font-family: 'Encode Sans Semi Condensed';
+    padding: 25px 0px 0px 0px;
+    margin-bottom: 15px;
+}
+.subtitulo{
+    font-family:'open Sans';
+    color: rgba(255, 255, 255, 0.769);
+    max-width: 400px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+ .navbar{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    
+}
+.conteiner{
+    height: auto;
+}
+.navbar li{
+    margin-right: 15px ;
+    border: 1px solid transparent;
+    padding: 5px;
+    transition: 0.5ms ease-in-out;
+    cursor: pointer;
+}
+.navbar li:hover{
+    background-color: #196333;
+}
+
+/* main  */
+main {
+    max-width: 960px;
+    min-width: 400px;
+    margin:0 auto;
+    background-color: white;
+    padding: 0px;
+    margin-top: 0%;
+    
+}
+
+
+.history{
+    padding: 20px 15px;
+    color:#156334;
+    text-align: center;
+}
+.history-paragraph{
+    padding: 0 20px;
+    text-indent: 10px;
+    margin-bottom: 15px;
+}
+
+.primary-version{
+    background-image: linear-gradient(to right,#84E1AD,#f6f5f5,#ffffff);
+    margin-left:20px;
+    margin-top: 45px;
+    margin-right: 15px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    color: #156334;
+
+}
+.create{
+    color: #2E7148;
+    cursor: pointer;
+}
+
+
+.imagem{
+    
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+.imagem img{
+    width: 90%;
+}
+.bugdroid img{
+    width: 250px;
+    
+}
+.bugdroid{
+    text-align: center;
+}
+
+.video iframe{
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    
+   
+
+}
+.video{
+     padding:200px;
+}
+
+
+.responsivo{
+    background-color: #196333;
+    position: relative;
+    
+   
+}
+.quer-aprender{
+    background-color: #BEEBD2;
+    margin:20px;
+    /* padding: 20px; */
+    box-shadow: 1px 1px 3px #0000005e;
+    border-radius: 5px;
+}
+.quer-aprender p,ul{
+    padding: 20px;
+}
+.quer-aprender h1{
+    background-color:#3EA86C ;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
+.doces-android{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+.doces-android li::before{
+    content: "✓";
+    margin-right: 4px;
+    color: #3EA86C;
+}
+.paragrafo-final{
+    padding-bottom: 50px;
+}
+
+footer{
+
+    background-color: #206B43;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.5;
+}
+
+
+
+
+
+
